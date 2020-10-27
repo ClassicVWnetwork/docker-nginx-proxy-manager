@@ -3,8 +3,8 @@
     "engine": "mysql",
     "host": "db",
     "name": "npm",
-    "user": "roba",
-    "password": "rsasr4882",
+    "user": "npm",
+    "password": "npm",
     "port": 3306
   },
   "jwt": {
