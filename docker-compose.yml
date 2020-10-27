@@ -13,9 +13,9 @@ services:
   db:
     image: jlesage/nginx-proxy-manager
     environment:
-      MYSQL_ROOT_PASSWORD: 'rsasr4882'
+      MYSQL_ROOT_PASSWORD: 'npm'
       MYSQL_DATABASE: 'npm'
-      MYSQL_USER: 'roba'
-      MYSQL_PASSWORD: 'rsasr4882'
+      MYSQL_USER: 'npm'
+      MYSQL_PASSWORD: 'npm'
     volumes:
       - ./data/mysql:/var/lib/mysql
